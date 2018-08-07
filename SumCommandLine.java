@@ -20,6 +20,7 @@ class SumCommandLine
             for (String val:args)
 	{
 		x=Integer.parseInt(val);
+		System.out.println("Integer "+x);
 		sum+=x;
 	}
              System.out.println("Sum is"+sum);    
